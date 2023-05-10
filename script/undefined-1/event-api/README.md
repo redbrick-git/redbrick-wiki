@@ -1,0 +1,12 @@
+# Event API
+
+### Overview
+
+|               API Format               | Return Value | 기능                                         |
+| :------------------------------------: | :----------: | ------------------------------------------ |
+|   object.onCollide(target, callback)   |       -      | 오브젝트에 특정 타겟이 충돌했을 때 콜백 함수를 실행              |
+| object.onCollideOnce(target, callback) |       -      | 오브젝트에 특정 타겟이 충돌했을 때 콜백 함수를 실행, 한 번만 실행됨    |
+|   object.onContact(target, callback)   |       -      | 오브젝트에 타겟이 충돌한 후 접촉한 상태일 경우 콜백 함수가 반복적으로 실행 |
+|  object.onCollideEnd(target, callback) |       -      | 오브젝트에 타겟이 충돌 후 벗어났을 때 콜백 함수가 실행            |
+|        object.onClick(callback)        |       -      | 오브젝트를 클릭했을 때 콜백 함수를 실행                     |
+
